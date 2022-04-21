@@ -98,6 +98,8 @@ body {
 
 .headline-icons {
   margin-top: 0.5rem;
+  list-style: none;
+  display: flex;
 }
 
 .headline-icon {

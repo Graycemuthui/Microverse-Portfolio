@@ -75,7 +75,7 @@ body {
   padding: 2.5rem;
 }
 
-.heading-heading {
+.headline-heading {
   font-size: 4rem;
   color: var(--color-headings);
   line-height: 1.1;
@@ -88,14 +88,17 @@ body {
   margin-top: 2rem;
   padding-right: 1.5rem;
 }
+
 .connect-text {
   font-weight: 500;
   color: #7f8cff;
   margin-top: 1rem;
 }
+
 .headline-icons {
   margin-top: 0.5rem;
 }
-.headline-icons {
-  padding-right: 0.5rem;
+
+.headline-icon {
+  padding: 0.5rem;
 }

@@ -52,3 +52,50 @@ body {
   color: var(--color-accent);
   font-size: 16px;
 }
+
+.headline-section {
+  position: relative;
+  height: 95vh;
+  background: var(--white) url(/images/header-shapes-mobile.svg);
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 75px;
+}
+
+.headline-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 15%;
+  padding: 2.5rem;
+}
+
+.heading-heading {
+  font-size: 4rem;
+  color: var(--color-headings);
+  line-height: 1.1;
+  width: 80%;
+}
+
+.headline-text {
+  color: var(--color-text);
+  line-height: 1.1;
+  margin-top: 2rem;
+  padding-right: 1.5rem;
+}
+.connect-text {
+  font-weight: 500;
+  color: #7f8cff;
+  margin-top: 1rem;
+}
+.headline-icons {
+  margin-top: 0.5rem;
+}
+.headline-icons {
+  padding-right: 0.5rem;
+}

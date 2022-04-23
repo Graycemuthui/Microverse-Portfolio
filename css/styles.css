@@ -266,13 +266,16 @@ gap: 1.5rem;
 .about-icons{
 width: 303px;
 border-bottom: 1px solid #dfe1e6;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .about--icons__angle{
 display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+/* flex-direction: column; */
+/* align-items: center; */
+justify-content: flex-start;
 }
 
 

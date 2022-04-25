@@ -10,12 +10,12 @@
 
 - To get a local copy up and running follow these simple example stepsTo spin up your application, follow this simple steps and you will be good to go.
 
-Copy this link `https://github.com/Graycemuthui/Microverse-Portfolio.git`
-Head to the directory you want clone the repo at.
-Open the terminal in while in this directory.
-Write `https://github.com/Graycemuthui/Microverse-Portfolio.git`
-Head to the repository folder in your terminalcd micro-portifolio.
-Run npm install to install the dev dependencies for linters.
+-Copy this link `https://github.com/Graycemuthui/Microverse-Portfolio.git`
+-Head to the directory you want clone the repo at.
+-Open the terminal in while in this directory.
+-Write `https://github.com/Graycemuthui/Microverse-Portfolio.git`
+-Head to the repository folder in your terminalcd micro-portifolio.
+-Run npm install to install the dev dependencies for linters.
 
 ### Prerequisites
 

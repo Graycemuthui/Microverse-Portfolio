@@ -166,11 +166,13 @@ body {
 }
 
 .categories {
-  display: flex;
+  /* display: flex;
   align-items: center;
   gap: 0.8rem;
   list-style: none;
-  margin-top: 1rem;
+  margin-top: 1rem; */
+  list-style: none;
+  float: left;
 }
 
 .categories li {

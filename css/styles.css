@@ -353,6 +353,8 @@ body {
   padding: 1.2rem;
   border-radius: 10px;
   margin-top: 1.2rem;
+  width: 100%;
+  border: none;
 }
 
 .message-input {

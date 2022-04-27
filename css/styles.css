@@ -213,6 +213,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   max-width: 100rem;
+
   /* position: absolute; */
   padding: 2.5rem;
 }
@@ -323,6 +324,7 @@ body {
 .lang .lang-exp .no-1 span i {
   color: #acb7c3;
 }
+
 .contact-section {
   height: 100vh;
   background: #6070ff url(/images/contact.svg);

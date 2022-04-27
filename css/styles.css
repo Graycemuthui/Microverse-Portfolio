@@ -323,3 +323,66 @@ body {
 .lang .lang-exp .no-1 span i {
   color: #acb7c3;
 }
+.contact-section {
+  height: 100vh;
+  background: #6070ff url(/images/contact.svg);
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-top-left-radius: 75px;
+  color: var(--white);
+  margin-top: 5rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.contact-header {
+  font-size: 3.5rem;
+  margin-top: 8rem;
+}
+
+.text-input {
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin-top: 1.2rem;
+  width: 100%;
+  border: none;
+}
+
+.message-input {
+  padding: 5rem;
+  border-radius: 10px;
+  margin-top: 1.2rem;
+  width: 100%;
+}
+
+textarea {
+  margin-top: 1.2rem;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.contact-btn {
+  padding: 1.5rem 2.2rem;
+  border-radius: 10px;
+  border: 1px solid #396df2;
+  color: #396df2;
+}
+
+.contact-btn:hover {
+  background-color: #6070ff;
+  color: var(--white);
+}
+
+.contact-btn:active {
+  background-color: #2230d2;
+  color: var(--white);
+}

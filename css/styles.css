@@ -361,4 +361,9 @@ body {
   padding: 5rem;
   border-radius: 10px;
   margin-top: 1.2rem;
+  width: 100%;
+}
+textarea {
+  margin-top: 1.2rem;
+  width: 100%;
 }

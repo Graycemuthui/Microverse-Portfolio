@@ -83,7 +83,7 @@ body {
   color: var(--color-headings);
   line-height: 1.1;
   width: 80%;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .headline-text {
@@ -385,4 +385,18 @@ textarea {
 .contact-btn:active {
   background-color: #2230d2;
   color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .headline-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

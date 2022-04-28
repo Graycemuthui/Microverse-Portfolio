@@ -387,6 +387,10 @@ textarea {
   color: var(--white);
 }
 
+.large-card {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .headline-section {
     display: flex;
@@ -395,8 +399,29 @@ textarea {
     align-items: center;
   }
 
+  .headline-heading {
+    margin-top: 25rem;
+  }
+
   .card {
+    display: none;
+  }
+
+  .large-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background: var(--white);
+    border-radius: 20px;
+    margin-bottom: 10rem;
+    padding-bottom: 2rem;
+    width: 80vw;
+  }
+
+  .about-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    width: 100%;
+    padding: 20rem;
   }
 }

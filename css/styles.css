@@ -295,6 +295,7 @@ body {
 .languages li a {
   text-decoration: none;
   color: #000;
+  margin-bottom: 2rem;
 }
 
 .lang-exp {
@@ -331,7 +332,6 @@ body {
   background-repeat: no-repeat;
   border-top-left-radius: 75px;
   color: var(--white);
-  margin-top: 5rem;
 }
 
 .contact-container {
@@ -341,11 +341,12 @@ body {
   align-items: center;
   gap: 2rem;
   padding: 2rem;
+  margin-top: 6rem;
 }
 
 .contact-header {
   font-size: 3.5rem;
-  margin-top: 8rem;
+  margin-top: 3rem;
 }
 
 .text-input {
@@ -393,14 +394,17 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .headline-section {
+    height: 100vh;
+    background: var(--white) url(/images/background.svg);
+    object-fit: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 75px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .headline-heading {
-    margin-top: 25rem;
+    padding-left: 10rem;
   }
 
   .card {
@@ -421,7 +425,73 @@ textarea {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 100%;
+  }
+
+  .card-body h2 {
+    font-size: 4rem;
+  }
+
+  .card-body p {
+    font-size: 1.6rem;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .languages li {
+    width: 122px;
+    height: 120px;
+    background-color: #f7f7f9;
+    margin-top: 0.8rem;
+    gap: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-section {
+    height: 100vh;
+    background: #6070ff url(/images/contactform.svg);
+    object-fit: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 75px;
+    color: var(--white);
     width: 100%;
-    padding: 20rem;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .contact-container p {
+    text-align: center;
+  }
+
+  .form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 447px;
+  }
+  .text-input {
+    border-radius: 0;
+  }
+
+  textarea {
+    border-radius: 0;
+  }
+
+  .contact-btn {
+    margin-top: 1.2rem;
   }
 }

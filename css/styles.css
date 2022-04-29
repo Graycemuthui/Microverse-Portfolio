@@ -199,6 +199,9 @@ body {
 .btn:hover {
   background-color: #6070ff;
   color: var(--white);
+  transition: all 1s ease-in-out;
+
+
 }
 
 .btn:active {

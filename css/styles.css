@@ -387,7 +387,8 @@ textarea {
   color: #396df2;
   background-color: #fff;
   font-size: 1.7rem;
-  padding: 10px 21px;
+  padding-top: 10px;
+  padding-right: 21px;
   margin: 16px auto;
 }
 
@@ -493,7 +494,7 @@ textarea {
   }
 
   .contact-section {
-    height: 100vh;
+    height: 120vh;
     background: #6070ff url(/images/contactform.svg);
     object-fit: cover;
     background-size: 100%;

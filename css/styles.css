@@ -60,9 +60,8 @@ body {
 }
 
 .headline-section {
-  background-repeat: no-repeat;
+  background: var(--white) no-repeat url(/images/headline.svg);
   background-size: 100%;
-  background: var(--white) url(/images/headline.svg);
   border-bottom-left-radius: 75px;
   height: 100vh;
   object-fit: cover;
@@ -87,7 +86,7 @@ body {
   color: var(--color-headings);
   line-height: 1.1;
   width: 80%;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 }
 
 .headline-text {

@@ -63,7 +63,7 @@ body {
   background: var(--white) no-repeat url(/images/headline.svg);
   background-size: 100%;
   border-bottom-left-radius: 75px;
-  height: 100vh;
+  height: 90vh;
   object-fit: cover;
   position: relative;
 }
@@ -331,14 +331,12 @@ body {
 }
 
 .contact-section {
-  height: 100vh;
   background: #6070ff url(/images/contact.svg);
   object-fit: cover;
   background-size: 100%;
   background-repeat: no-repeat;
   border-top-left-radius: 75px;
   color: var(--white);
-  margin-top: 6rem;
 }
 
 .contact-container {
@@ -348,6 +346,11 @@ body {
   align-items: center;
   gap: 2rem;
   padding: 2rem;
+  height: 800px;
+  width: 327px;
+  left: 24px;
+  top: 754px;
+  margin: 0 auto;
 }
 
 .contact-header {
@@ -384,6 +387,8 @@ textarea {
   color: #396df2;
   background-color: #fff;
   font-size: 1.7rem;
+  padding: 10px 21px;
+  margin: 16px auto;
 }
 
 .contact-btn:hover {
@@ -428,7 +433,7 @@ textarea {
     color: #344563;
   }
 
-  .fa-bars {
+  .nav-bar .fa-bars {
     display: none;
   }
 
@@ -458,6 +463,8 @@ textarea {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 100%;
+    align-items: center;
+    height: 644px;
   }
 
   .card-body h2 {
@@ -495,6 +502,7 @@ textarea {
     color: var(--white);
     width: 100%;
     margin-top: 0;
+    text-align: center;
   }
 
   .contact-container {
@@ -504,11 +512,9 @@ textarea {
     align-items: center;
     text-align: center;
     margin-bottom: 6rem;
-    height: 100vh;
-  }
-
-  .contact-container p {
-    text-align: center;
+    height: 800px;
+    max-height: 90%;
+    max-width: 100%;
   }
 
   .form-inputs {

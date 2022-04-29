@@ -208,6 +208,7 @@ body {
   background-color: #2230d2;
   color: var(--white);
   transform: translate(50px, 80px);
+  transition: all 1s ease-in-out;
 }
 
 .about-section {

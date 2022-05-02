@@ -28,6 +28,11 @@
 
 - Using git, clone the code to your machine or download a Zip File.
 
+## Deployment
+
+- After opening the files in Visual Studio Code, press the **Go Live** button on the status bar (bottom of the window) to launch the files with Live Server.
+- To view a live demo of the project you can click on this [link](https://graycemuthui.github.io/Microverse-Portfolio/).
+
 ## Authors
 
 👤 Grace Muthui

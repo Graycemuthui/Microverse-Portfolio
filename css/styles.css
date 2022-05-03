@@ -352,7 +352,11 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   border-top-left-radius: 75px;
-  color: var(--white);
+  color: black;
+}
+
+label {
+  color: black;
 }
 
 .contact-container {

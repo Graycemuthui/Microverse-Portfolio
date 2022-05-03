@@ -1,4 +1,4 @@
-# Hello Micoverse
+# Microverse Portfolio
 
 - This is a Microverse project to set up linter configurations.
 

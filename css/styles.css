@@ -45,7 +45,7 @@ body {
 
 .logo {
   text-decoration: none;
-  color: #4555e8;
+  color: var(--color-headings); /* #6070ff - changed for accessibility*/
   font-size: 1.8rem;
   font-weight: 700;
 }

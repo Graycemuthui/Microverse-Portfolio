@@ -374,6 +374,10 @@ body {
   margin-top: 10rem;
 }
 
+.contact-paragraph {
+  color: rgb(7, 1, 1);
+}
+
 .text-input {
   padding: 1.2rem;
   border-radius: 10px;

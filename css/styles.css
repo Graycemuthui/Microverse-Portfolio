@@ -45,7 +45,7 @@ body {
 
 .logo {
   text-decoration: none;
-  color: var(--color-accent);
+  color: #4555e8;
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -121,7 +121,7 @@ body {
 
 .connect-text {
   font-weight: 500;
-  color: #7f8cff;
+  color: #5461d4;
   margin-top: 1rem;
 }
 
@@ -188,7 +188,7 @@ body {
 }
 
 .text-light {
-  color: #7a869a;
+  color: #4d607d;
   font-size: 1.4rem;
 }
 

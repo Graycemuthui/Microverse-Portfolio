@@ -184,8 +184,8 @@ body {
 
 .categories li {
   font-size: 1.1rem;
-  background: #ebebff;
-  color: var(--accent-color);
+  background: #020215;
+  color: #080b29;
   padding: 0.5rem 1rem;
   border-radius: 8px;
 }

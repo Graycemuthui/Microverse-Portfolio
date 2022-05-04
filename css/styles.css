@@ -201,8 +201,8 @@ body {
 }
 
 .btn:hover {
-  background-color: #0016e0;
-  color: #dee7fd;
+  background-color: #3737a4;
+  color: #fafafa;
   transition: all 1000ms ease-in-out;
 }
 
@@ -425,8 +425,8 @@ textarea {
 }
 
 .contact-btn:hover {
-  background-color: #0c39ac;
-  color: var(--white);
+  background-color: #3a4973;
+  color: #edf2fd;
   transition: all 1000ms ease-in-out;
 }
 

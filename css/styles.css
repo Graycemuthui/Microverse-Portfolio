@@ -201,8 +201,13 @@ body {
 }
 
 .btn:hover {
+<<<<<<< HEAD
   background-color: #3737a4;
   color: #fafafa;
+=======
+  background-color: #132096;
+  color: #b6cbfc;
+>>>>>>> 235c0fd63b34e32f4a95acb6fdf12c9a2d0d9ac7
   transition: all 1000ms ease-in-out;
 }
 
@@ -351,7 +356,7 @@ body {
 }
 
 .contact-section {
-  background: #6070ff url(../images/contact.svg);
+  background: #fff url(../images/contact.svg);
   object-fit: cover;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -425,8 +430,13 @@ textarea {
 }
 
 .contact-btn:hover {
+<<<<<<< HEAD
   background-color: #3a4973;
   color: #edf2fd;
+=======
+  background-color: #274286;
+  color: var(--white);
+>>>>>>> 235c0fd63b34e32f4a95acb6fdf12c9a2d0d9ac7
   transition: all 1000ms ease-in-out;
 }
 

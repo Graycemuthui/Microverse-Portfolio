@@ -351,7 +351,7 @@ body {
 }
 
 .contact-section {
-  background: #6070ff url(../images/contact.svg);
+  background: #ffffff url(../images/contact.svg);
   object-fit: cover;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -425,7 +425,7 @@ textarea {
 }
 
 .contact-btn:hover {
-  background-color: #0c39ac;
+  background-color: #274286;
   color: var(--white);
   transition: all 1000ms ease-in-out;
 }

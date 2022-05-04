@@ -214,7 +214,8 @@ body {
 .btn:focus {
   outline: #014cc6;
 }
-*/ .about-section {
+
+.about-section {
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -45,7 +45,7 @@ body {
 
 .logo {
   text-decoration: none;
-  color: var(--color-headings);
+  color: #2929ff;
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -201,14 +201,18 @@ body {
 }
 
 .btn:hover {
-  background-color: #6070ff;
-  color: var(--white);
+  background-color: #0016e0;
+  color: #dee7fd;
   transition: all 1000ms ease-in-out;
 }
 
 .btn:active {
   background-color: #2230d2;
   color: var(--white);
+}
+
+.btn:focus {
+  outline: #014cc6;
 }
 
 .about-section {
@@ -421,7 +425,7 @@ textarea {
 }
 
 .contact-btn:hover {
-  background-color: #396df2;
+  background-color: #0c39ac;
   color: var(--white);
   transition: all 1000ms ease-in-out;
 }

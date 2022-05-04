@@ -201,8 +201,8 @@ body {
 }
 
 .btn:hover {
-  background-color: #0016e0;
-  color: #dee7fd;
+  background-color: #132096;
+  color: #b6cbfc;
   transition: all 1000ms ease-in-out;
 }
 

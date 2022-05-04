@@ -201,13 +201,8 @@ body {
 }
 
 .btn:hover {
-<<<<<<< HEAD
-  background-color: #3737a4;
-  color: #fafafa;
-=======
   background-color: #132096;
   color: #b6cbfc;
->>>>>>> 235c0fd63b34e32f4a95acb6fdf12c9a2d0d9ac7
   transition: all 1000ms ease-in-out;
 }
 
@@ -430,13 +425,8 @@ textarea {
 }
 
 .contact-btn:hover {
-<<<<<<< HEAD
   background-color: #3a4973;
   color: #edf2fd;
-=======
-  background-color: #274286;
-  color: var(--white);
->>>>>>> 235c0fd63b34e32f4a95acb6fdf12c9a2d0d9ac7
   transition: all 1000ms ease-in-out;
 }
 
@@ -521,6 +511,12 @@ textarea {
     padding: 2rem;
   }
 
+  .btn:hover {
+    background-color: #132096;
+    color: #b6cbfc;
+    transition: all 1000ms ease-in-out;
+  }
+
   .categories li {
     color: #6070ff;
   }
@@ -571,6 +567,16 @@ textarea {
     text-align: center;
   }
 
+  .contact-btn {
+    margin-top: 1.2rem;
+  }
+
+  .contact-btn:hover {
+    background-color: #3a4973;
+    color: #edf2fd;
+    transition: all 1000ms ease-in-out;
+  }
+
   .contact-container {
     display: flex;
     flex-direction: column;
@@ -597,9 +603,5 @@ textarea {
 
   textarea {
     border-radius: 0;
-  }
-
-  .contact-btn {
-    margin-top: 1.2rem;
   }
 }

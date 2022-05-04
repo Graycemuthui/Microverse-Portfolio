@@ -204,9 +204,9 @@ body {
   background-color: #132096;
   color: #b6cbfc;
   transition: all 1000ms ease-in-out;
-}
+} */
 
-.btn:active {
+/* .btn:active {
   background-color: #2230d2;
   color: var(--white);
 } */
@@ -214,8 +214,7 @@ body {
 .btn:focus {
   outline: #014cc6;
 }
-
-.about-section {
+*/ .about-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -253,16 +252,16 @@ body {
   background-color: #fff;
 }
 
-.about-button:hover {
+/* .about-button:hover {
   background-color: #6070ff;
   color: var(--white);
   transition: all 1000ms ease-in-out;
-}
+} */
 
-.about-button:active {
+/* .about-button:active {
   background-color: #2230d2;
   color: var(--white);
-}
+} */
 
 .language-section {
   margin-top: 3rem;
@@ -424,7 +423,8 @@ textarea {
   margin: 16px auto;
 }
 
-/* .contact-btn:hover {
+/* 
+.contact-btn:hover {
   background-color: #3a4973;
   color: #edf2fd;
   transition: all 1000ms ease-in-out;

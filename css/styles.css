@@ -54,9 +54,13 @@ body {
   display: none;
 }
 
-.fa-bars {
+.fa-solid {
   color: var(--color-accent);
   font-size: 16px;
+}
+
+.fa-xmark {
+  font-size: 20px;
 }
 
 .headline-section {
@@ -351,12 +355,12 @@ body {
 }
 
 .contact-section {
-  background: #fff url(../images/contact.svg);
+  background: #6070ff url(../images/contactform.svg);
   object-fit: cover;
   background-size: 100%;
   background-repeat: no-repeat;
   border-top-left-radius: 75px;
-  color: var(--color-accent);
+  color: var(--color-body);
 }
 
 label {
@@ -587,5 +591,10 @@ textarea {
 
   textarea {
     border-radius: 0;
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
   }
 }

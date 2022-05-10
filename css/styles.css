@@ -75,6 +75,10 @@ body {
   padding-top: 6rem;
 }
 
+.nav-menu li {
+  margin: 3rem 0;
+}
+
 .nav-menu li a {
   color: var(--color-body);
   text-decoration: none;
@@ -88,7 +92,8 @@ i.cross-icon.fa-solid.fa-times {
 
 .list-item {
   font-size: 3rem;
-  padding: 3rem;
+  font-weight: 600;
+  padding: 0 3rem;
 }
 
 .show-menu {

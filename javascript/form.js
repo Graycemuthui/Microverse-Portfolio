@@ -1,8 +1,8 @@
 const navigationBar = document.querySelector(".navigation-bar");
 const listItems = document.querySelectorAll(".list-item");
 const hamburger = document.querySelector(".hamburger");
-const crossmark = document.querySelector(".cross-icon");
-const bars = document.querySelector(".menu-icon");
+const crossmark = document.querySelector(".fa-times");
+const bars = document.querySelector(".fa-bars");
 
 function toggleHamburger() {
   if (navigationBar.classList.contains("show-menu")) {
@@ -17,3 +17,10 @@ function toggleHamburger() {
 }
 
 hamburger.addEventListener("click", toggleHamburger);
+
+listItems.forEach( 
+  function(listItem) { 
+    listItem.addEventListener("click", toggleHamburger);
+  }
+)
+

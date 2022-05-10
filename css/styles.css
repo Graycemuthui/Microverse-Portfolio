@@ -520,7 +520,6 @@ textarea {
 
   .navigation-bar {
     list-style: none;
-    display: inline-block;
     gap: 2rem;
     justify-content: space-between;
     margin-right: 8rem;

@@ -30,41 +30,39 @@ const portfolioCards = [
     title1: 'Tonic',
     image: 'images/snapshot1.svg',
     image1: 'images/tonic.svg',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    languages: ["html", "css", "JavaScript"]
-    },
-    {
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    languages: ['html', 'css', 'JavaScript'],
+  },
+  {
     title: 'Multi-Post Stories',
     title1: 'Multi-Post Stories',
     image: 'images/availability.svg',
     image1: 'images/multidesktop.svg',
-    description: "Experimental content creation feature that allows users to add to anexisting story over the course of a day without spamming their friends.",
-    languages: ["html", "css", "JavaScript"]
-    },
-    {
+    description: 'Experimental content creation feature that allows users to add to anexisting story over the course of a day without spamming their friends.',
+    languages: ['html', 'css', 'JavaScript'],
+  },
+  {
     title: 'Tonic',
     title1: 'Facebook 360',
     image: 'images/snapshot3.svg',
     image1: 'images/tonicdesktop.svg',
     description: "Exploring the future of media in Facebook's first Virtual Realityapp; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    languages: ["html", "css", "JavaScript"]
-    },
-    {
+    languages: ['html', 'css', 'JavaScript'],
+  },
+  {
     title: 'Multi-Post Stories',
     title1: 'Uber Navigation',
     image: 'images/snapshot4.svg',
     image1: 'images/availability.svg',
-    description: "A smart assistant to make driving more safe, efficient, and fun byunlocking your most expensive computer: your car.",
-    languages: ["html", "css", "JavaScript"]
-    },
+    description: 'A smart assistant to make driving more safe, efficient, and fun byunlocking your most expensive computer: your car.',
+    languages: ['html', 'css', 'JavaScript'],
+  },
 ];
 
-let demo = document.getElementById("portfolio large-portfolio");
-demo.innerHTML = portfolioCards.reduce((output, portfolio) => {
-  console.log("PROJECT", portfolioCards)
-  return (
-    output +
-    `
+const demo = document.getElementById('portfolio large-portfolio');
+demo.innerHTML = portfolioCards.reduce((output, portfolio) => (
+  `${output
+  }
     <article class="card large-card">
         <img
           class="card-image"
@@ -95,27 +93,26 @@ demo.innerHTML = portfolioCards.reduce((output, portfolio) => {
             ${portfolio.description}
           </p>
           <ul class="categories">
-          ${portfolio.languages.map(x => `<li>${x}</li>`).join("")}
+          ${portfolio.languages.map((x) => `<li>${x}</li>`).join('')}
           </ul>
           <button class="btn card-button" data-open="modal11">See Project</button>
         </div>
       </article>
   `
-  );
-}, "");
+), '');
 
 const closeButton = document.querySelector('#modal-close');
 const btn = document.querySelectorAll('[data-open]');
-const overlay = document.querySelector('.popup-overlay'); 
+const overlay = document.querySelector('.popup-overlay');
 const modal1 = document.querySelector('#modal1');
-btn.forEach((btnx) => { 
-  btnx.addEventListener('click', (e) => { 
-    console.log("EVENT", e)
-  modal1.style.display = 'block'; 
-  }); 
-}); 
+btn.forEach((btnx) => {
+  btnx.addEventListener('click', () => {
+    modal1.style.display = 'block';
+    overlay.style.display = 'block';
+  });
+});
 
-closeButton.addEventListener('click', () => { 
-  modal1.style.display = 'none'; 
-  overlay.style.display = 'none'; 
-}); 
+closeButton.addEventListener('click', () => {
+  modal1.style.display = 'none';
+  overlay.style.display = 'none';
+});

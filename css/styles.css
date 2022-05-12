@@ -78,6 +78,7 @@ body {
 .nav-bar {
   display: inline;
 }
+
 .nav-menu li {
   margin: 3rem 0;
 }
@@ -183,7 +184,6 @@ i.cross-icon.fa-solid.fa-times {
   margin-bottom: 10rem;
   padding-bottom: 2rem;
   width: 80vw;
-  background: var(--white);
 }
 
 .large-text__light {
@@ -193,10 +193,6 @@ i.cross-icon.fa-solid.fa-times {
 .card-image {
   width: 90%;
   margin-top: 1.5rem;
-}
-
-.large-image {
-  display: none;
 }
 
 .large-text {
@@ -588,9 +584,9 @@ textarea {
   z-index: 1000;
   display: block;
   transition: display 1s linear;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #ebecf0;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   border-radius: 16px;
   padding-bottom: 20px;
   display: none;
@@ -864,9 +860,9 @@ a.mobile-btn {
     z-index: 1000;
     display: block;
     transition: display 1s linear;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #ebecf0;
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;
     padding-bottom: 20px;
     display: none;
@@ -902,7 +898,7 @@ a.mobile-btn {
     z-index: 1000;
     color: #67798e;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 35px;
   }
 
   .modal-description {
@@ -926,7 +922,7 @@ a.mobile-btn {
     flex-direction: column;
     column-gap: 5px;
     margin-bottom: 5px;
-    margin-top: 0px;
+    margin-top: 0;
     justify-content: flex-start;
   }
 
@@ -950,7 +946,7 @@ a.mobile-btn {
     height: 30px;
     text-align: center;
     font-size: 10px;
-    margin: 5px 0px;
+    margin: 5px 0;
     padding: 4px 15px;
     margin-right: 10px;
   }

@@ -78,7 +78,6 @@ demo.innerHTML = portfolioCards.reduce((output, portfolio) => {
         />
         <div class="card-body">
           <h2 class="small-heading">${portfolio.title}</h2>
-          <h2 class="large-heading">${portfolio.title1}</h2>
           <div class="card-specs">
             <span class="text-normal">CANOPY</span>
             <span class="large-text">CANOPY</span>
@@ -98,9 +97,16 @@ demo.innerHTML = portfolioCards.reduce((output, portfolio) => {
           <ul class="categories">
           ${portfolio.languages.map(x => `<li>${x}</li>`)}
           </ul>
-          <button class="btn card-button">See Project</button>
+          <button class="btn card-button" data-open ="modal11">See Project</button>
         </div>
       </article>
   `
   );
 }, "");
+
+const closeButton = document.querySelector('#modal-close');
+const btn = document.querySelectorAll('[data-open]');
+const overlay = document.querySelector('.popup-overlay'); 
+const demo1 = document.querySelector('#modal1');
+btn.forEach((btnx) => { btnx.addEventListener('click', () => { demo1.style.display = 'block'; }); }); 
+closeButton.addEventListener('click', () => { demo1.style.display = 'none'; overlay.style.display = 'none'; }); 

@@ -90,25 +90,22 @@
     </section>
 
     <!-- Work section -->
-    <section id="portfolio large-portfolio" class="works-section"></section>
-
     <!-- Modal-Window -->
-    <section class="modal-window">
-      <div class="popup-overlay"></div>
+    <div class="popup-overlay"></div>
       <div class="popup" id="modal1">
         <div class="header-pop">
           <h2 class="small-heading">Tonic</h2>
           <p class="close-btn" id="modal-close">&times;</p>
-          <div class="card-specs">
-            <span class="text-normal">CANOPY</span>
-            <span class="large-text">CANOPY</span>
-            <img src="./images/Counter.svg" alt="" class="counter" />
-            <span class="text-light">Back End Dev</span>
-            <span class="large-text__light">Back End Dev</span>
-            <img src="./images/Counter.svg" alt="" class="counter" />
-            <span class="text-light">2015</span>
-            <span class="large-text__light">2015</span>
-          </div>
+        </div>
+        <div class="card-specs">
+          <span class="text-normal">CANOPY</span>
+          <span class="large-text">CANOPY</span>
+          <img src="./images/Counter.svg" alt="" class="counter" />
+          <span class="text-light">Back End Dev</span>
+          <span class="large-text__light">Back End Dev</span>
+          <img src="./images/Counter.svg" alt="" class="counter" />
+          <span class="text-light">2015</span>
+          <span class="large-text__light">2015</span>
         </div>
         <div class="popup-body">
           <div class="img-popup-div">
@@ -129,15 +126,6 @@
                 simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
-                and scrambled it 1960s with the releorem Ipsum is simply dummy
-                text of the printing and typesetting industry. Lorem Ipsum han
-                printer took a galley of type and scrambled it 1960s with the
-                releawn printer took a galley of type and scrambled it 1960s
-                with the releaLorem Ipsum is simply dummy text of the printing
-                and typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it 1960s with the
-                relea
               </p>
               <p class="small-modal">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -149,34 +137,35 @@
               </p>
             </div>
             <div class="categories-list categories-mobile">
-              <ul class="categories">
-                <li>html</li>
-                <li>css</li>
-                <li>javascript</li>
-              </ul>
+              <div class="languages-div">
+                <ul class="categories">
+                  <li>html</li>
+                  <li>css</li>
+                  <li>javascript</li>
+                </ul>
+                <ul class="categories hide-lang">
+                  <li>github</li>
+                  <li>Ruby</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </div>
               <div class="modal-btn">
-                <button class="btn small-btn large-btn">
+                <button class="mobile-btn btn">
                   See Live
-                  <img
-                    src="./images/icon.svg"
-                    alt="A small github logo "
-                    srcset=""
-                  />
+                  <span><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                  </span>
                 </button>
-                <button class="btn small-btn large-btn">
+                <button class="mobile-btn btn">
                   See Source
-                  <img
-                    src="./images/vector.svg"
-                    alt="A small github logo "
-                    srcset=""
-                  />
+                  <span><i class="fa fa-github" aria-hidden="true"></i></span>
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+
+    <section id="portfolio large-portfolio" class="works-section"></section>
 
     <!-- About-Section -->
     <section id="about" class="about-section">

@@ -59,7 +59,7 @@ const portfolioCards = [
   },
 ];
 
-const demo = document.getElementById('portfolio large-portfolio');
+const demo = document.getElementById('portfolio');
 demo.innerHTML = portfolioCards.reduce((output, portfolio) => (
   `${output
   }

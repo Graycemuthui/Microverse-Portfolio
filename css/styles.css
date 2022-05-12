@@ -195,8 +195,10 @@ i.cross-icon.fa-solid.fa-times {
 }
 
 .card-image {
-  width: 90%;
-  margin: 0 14px;
+  width: 75vw;
+  margin: 14px 14px;
+  margin-top: 2rem;
+  padding: 1.2rem 1.2rem;
 }
 
 .card-image:hover {
@@ -610,10 +612,27 @@ a.mobile-btn {
   width: 125px;
   height: 25px;
   font-size: 12px;
-  padding: 4px;
+  padding: 10px;
   text-decoration: none;
   margin: 4px;
   text-align: center;
+}
+
+.close-btn {
+  margin: 0 10px;
+  z-index: 1000;
+  color: #67798e;
+  cursor: pointer;
+}
+
+p#modal-close {
+  font-size: 3.5rem;
+  font-size: 6;
+  color: #67798e;
+}
+
+.modal-btn {
+  margin-top: 2rem;
 }
 
 /* Desktop Version */
@@ -875,7 +894,12 @@ a.mobile-btn {
     z-index: 1000;
     color: #67798e;
     cursor: pointer;
-    font-size: 35px;
+  }
+
+  p#modal-close {
+    font-size: 3.5rem;
+    font-size: 6;
+    color: #67798e;
   }
 
   .modal-description {
@@ -947,8 +971,20 @@ a.mobile-btn {
   .modal-btn {
     display: flex;
     flex-direction: row;
+    text-align: center;
     width: 100%;
     margin: 0;
     padding: 0;
+  }
+
+  a.mobile-btn.btn {
+    padding: 2rem 1.3em;
+    text-align: center;
+    width: 120px;
+    margin: 1.5rem 0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }

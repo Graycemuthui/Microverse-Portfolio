@@ -850,7 +850,7 @@ p#modal-close {
   .popup {
     margin: 10px 0;
     position: fixed;
-    top: -55%;
+    top: -51%;
     left: 50%;
     transform: translate(-50%, 50%);
     width: 80%;

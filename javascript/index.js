@@ -101,7 +101,6 @@ demo.innerHTML = portfolioCards.reduce((output, portfolio) => (
   `
 ), '');
 
-const images = document.getElementsByClassName('')
 const closeButton = document.querySelector('#modal-close');
 const btn = document.querySelectorAll('[data-open]');
 const overlay = document.querySelector('.popup-overlay');

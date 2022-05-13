@@ -284,6 +284,7 @@
         <form
           action="https://formspree.io/f/xgedpypk"
           method="post"
+          id="forms"
           class="form-inputs"
         >
           <input
@@ -293,7 +294,14 @@
             maxlength="30"
             required
           />
-          <input class="text-input" type="email" placeholder="Email" required />
+          <input
+            class="text-input"
+            type="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <div id="error"></div>
           <textarea
             name="message"
             id="message"

@@ -24,6 +24,8 @@ listItems.forEach(
   },
 );
 
+// Work Section
+
 const portfolioCards = [
   {
     title: 'Tonic',
@@ -101,6 +103,8 @@ demo.innerHTML = portfolioCards.reduce((output, portfolio) => (
   `
 ), '');
 
+// Modal popup
+
 const closeButton = document.querySelector('#modal-close');
 const btn = document.querySelectorAll('[data-open]');
 const overlay = document.querySelector('.popup-overlay');
@@ -115,4 +119,19 @@ btn.forEach((btnx) => {
 closeButton.addEventListener('click', () => {
   modal1.style.display = 'none';
   overlay.style.display = 'none';
+});
+
+// Forms
+const formInput = document.getElementById('forms');
+const email = document.querySelector('#email');
+const errorElement = document.getElementById('error');
+errorElement.style.color = 'red';
+
+formInput.addEventListener('submit', (e) => {
+  e.preventDefault();
+  if (email.value === email.value.toLowerCase()) {
+    formInput.submit();
+  } else {
+    errorElement.innerText = 'Please type your e-mail in lowercase';
+  }
 });

@@ -1,10 +1,10 @@
 # Microverse Portfolio
 
-- This is a Microverse project to set up linter configurations.
+- This is a Microverse project to create a portfolio.
 
 ## Built With
 
-- HTML & CSS
+- HTML & CSS & Javascript
 
 ## Getting Started
 
@@ -13,8 +13,6 @@
 - Copy this link `https://github.com/Graycemuthui/Microverse-Portfolio.git`
 - Head to the directory you want clone the repo at.
 - Open the terminal in while in this directory.
-- Write `https://github.com/Graycemuthui/Microverse-Portfolio.git`
-- Head to the repository folder in your terminalcd micro-portifolio.
 - Run npm install to install the dev dependencies for linters.
 
 ### Prerequisites

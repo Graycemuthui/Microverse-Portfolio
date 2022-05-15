@@ -24,7 +24,7 @@
 
 ### Setup
 
-- Using git, clone the code to your machine or download a Zip File.
+- Using git, clone the code to your machine or download a zip File.
 
 ## Deployment
 

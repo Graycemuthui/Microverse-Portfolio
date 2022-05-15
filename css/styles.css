@@ -565,7 +565,7 @@ textarea {
 .popup {
   margin: 10px 0;
   position: fixed;
-  top: -44%;
+  top: -35%;
   left: 50%;
   transform: translate(-50%, 50%);
   width: 80%;
@@ -659,17 +659,19 @@ p#modal-close {
     padding-left: 10rem;
   }
 
-  /* .nav-bar {
-    position: relative;
-  } */
-
   .nav-menu li a {
     color: #000;
     list-style-type: none;
+    font-weight: 450;
+    font-size: 2.1rem;
   }
 
   .nav-bar .fa-bars {
     display: none;
+  }
+
+  .nav-bar {
+    position: fixed;
   }
 
   ul.navigation-bar.nav-menu {
@@ -677,6 +679,10 @@ p#modal-close {
     width: 0;
     height: 0;
     background: none;
+    display: flex;
+    margin: 0.1rem 60rem;
+    padding-bottom: 3rem;
+    position: fixed;
   }
 
   .nav-bar {
@@ -764,6 +770,7 @@ p#modal-close {
     max-width: 100%;
     align-items: center;
     height: 644px;
+    background: var(--white);
   }
 
   .languages {

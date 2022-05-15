@@ -578,7 +578,7 @@ textarea {
   padding-bottom: 20px;
   display: none;
   overflow: hidden;
-  overflow-y: scroll;
+  overflow-x: scroll;
 }
 
 .hide-lang {
@@ -878,7 +878,7 @@ p#modal-close {
     padding-bottom: 20px;
     display: none;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-x: scroll;
   }
 
   .img-popup {

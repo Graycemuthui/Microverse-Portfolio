@@ -670,12 +670,7 @@ p#modal-close {
     display: none;
   }
 
-  .nav-bar {
-    position: fixed;
-  }
-
   ul.navigation-bar.nav-menu {
-    margin-top: 35rem;
     width: 0;
     height: 0;
     background: none;

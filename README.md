@@ -1,6 +1,6 @@
 # Microverse Portfolio
 
-- This is a Microverse project to create a portfolio.
+- This is a Microverse project to create a portfolio that entails beliefs, skills, qualifications, education, training and experiences.
 
 ## Built With
 
